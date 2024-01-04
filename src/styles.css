@@ -1,11 +1,66 @@
 :root {
-  --primary-color: #e9e2d0;
-  --secondary-color: #ea9085;
-  --tertiary-color: #6e5773;
-  --accent-color: #4f323b;
+  --primary-color: #afb7ba;
+  --secondary-color: #7db3c6;
+  --tertiary-color: #334a52;
 }
 
-h1 {
+.navbar {
+  background-color: var(--secondary-color);
+  padding: 0px 0px 0px 15px;
+}
+
+body {
   font-family: "Raleway", sans-serif;
+}
+
+p {
+  font-size: 18px;
+  line-height: 2;
+  text-align: justify;
+  color: var(--tertiary-color);
+}
+
+.homepage-h1 {
   color: var(--primary-color);
+  font-size: 200px;
+  font-weight: 800;
+  margin: 40px;
+}
+
+img {
+  width: 500px;
+  border-radius: 20px;
+}
+
+.section-1 {
+  padding: 40px 0px 40px 0px;
+}
+
+.section-2 {
+  padding: 40px 0px 80px 0px;
+}
+
+.homepage-text-1 {
+  padding: 0 20px 0 0;
+}
+
+.homepage-text-2 {
+  padding: 0 20px 0 20px;
+}
+
+@media (max-width: 768px) {
+  p {
+    font-size: 14px;
+    text-align: left;
+  }
+
+  .homepage-text-1 {
+    padding: 0;
+  }
+}
+
+@media (max-width: 1200px) {
+  .homepage-h1 {
+    font-size: 100px;
+  }
 }
