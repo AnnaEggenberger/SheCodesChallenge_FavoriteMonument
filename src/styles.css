@@ -9,6 +9,18 @@
   padding: 0px 0px 0px 15px;
 }
 
+.nav-link {
+  color: white;
+}
+
+.active {
+  color: white;
+}
+
+.navbar-brand {
+  color: white;
+}
+
 body {
   font-family: "Raleway", sans-serif;
 }
@@ -17,14 +29,13 @@ p {
   font-size: 18px;
   line-height: 2;
   text-align: justify;
-  color: var(--tertiary-color);
 }
 
 .homepage-h1 {
-  color: var(--primary-color);
+  color: var(--secondary-color);
   font-size: 200px;
   font-weight: 800;
-  margin: 40px;
+  margin: 40px 0px 0px 0px;
 }
 
 img {
@@ -45,7 +56,21 @@ img {
 }
 
 .homepage-text-2 {
+  padding: 0 20px 0 0px;
+}
+
+footer {
+  margin: 0 0 40px 0;
+}
+.footer-text {
+  text-align: center;
+  font-size: 12px;
   padding: 0 20px 0 20px;
+  color: var(--secondary-color);
+}
+
+a {
+  color: var(--secondary-color);
 }
 
 @media (max-width: 768px) {
@@ -61,6 +86,6 @@ img {
 
 @media (max-width: 1200px) {
   .homepage-h1 {
-    font-size: 100px;
+    font-size: 70px;
   }
 }
